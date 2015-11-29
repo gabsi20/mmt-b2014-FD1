@@ -1,0 +1,27 @@
+<h3>Drivers</h3>
+<table class="table table-hover table-condensed table-responsive">
+  <thead>
+  <th>Driver Name</th>
+  <th>Day of Birth</th>
+  <th>Nationality</th>
+  </thead>
+  <tbody>
+  	{{#each drivers}}
+  		<tr>
+  			<td><a href="/drivers/{{driverId}}">{{givenName}} {{familyName}}</a></td>
+  			<td>{{dateFormat dateOfBirth format="D. MMMM YYYY"}}</td>
+  			<td>{{nationality}}</td>
+  		</tr>
+  	{{/each}}
+  </tbody>
+</table>
+
+<ul class="nav nav-pills col-md-12">
+{{#times count=11 start=page}}
+  <li role="presentation"
+  {{#eq current @index}}
+    class="active"
+  {{/eq}}
+  ><a href="?page={{@index}}">{{@index}}</a></li>
+{{/times}}
+</ul>
