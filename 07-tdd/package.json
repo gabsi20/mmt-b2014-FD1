@@ -1,0 +1,23 @@
+{
+  "name": "07-tdd",
+  "version": "1.0.0",
+  "description": "Assignment 7",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabsi20/mmt-b2014-FD1.git"
+  },
+  "author": "Alexander Gabriel, Nico Deufemia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabsi20/mmt-b2014-FD1/issues"
+  },
+  "homepage": "https://github.com/gabsi20/mmt-b2014-FD1#readme",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "should": "^7.1.1"
+  }
+}

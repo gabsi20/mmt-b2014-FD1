@@ -1,0 +1,10 @@
+{
+	"a": {
+		"firstName": "a",
+		"athorized": "nicht"
+	},
+	"b" : {
+		"firstName": "b",
+		"athorized": "auchnicht"
+	}
+}
